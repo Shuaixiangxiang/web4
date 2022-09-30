@@ -1,0 +1,11 @@
+version: "2"
+​
+services:
+​
+  web:
+    build: .
+    restart: always
+    ports:
+      - "0.0.0.0:12000:80"
+    environment:
+      - FLAG=HNUCTF{Ana1y2e_netw0rk_traff1c}
